@@ -8,7 +8,7 @@ WORKDIR /app
 # COPY Gemfile Gemfile.lock ./
 
 # Instala las dependencias del proyecto
-RUN bundle install
+#RUN bundle install
 
 # Copia todo el código del proyecto
 COPY . .
