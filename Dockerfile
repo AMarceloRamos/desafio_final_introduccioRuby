@@ -5,7 +5,7 @@ FROM ruby:3.2
 WORKDIR /app
 
 # Copia el archivo Gemfile y Gemfile.lock para instalar dependencias primero
-COPY Gemfile Gemfile.lock ./
+# COPY Gemfile Gemfile.lock ./
 
 # Instala las dependencias del proyecto
 RUN bundle install
